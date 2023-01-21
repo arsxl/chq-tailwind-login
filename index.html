@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Boilerplate</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="output.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="font-bold text-center text-4xl mt-20 mb-28">Log In Into Your Account</h1>
+        </header>
+        <section>
+            <div class="flex flex-wrap max-w-7xl m-auto">
+                <form class="flex-auto">
+                    <div class="">
+                        <div class="mb-6">
+                            <label for="userrole" class="block w-full text-gray-600 text-2xl">User Role</label>
+                            <select class="w-1/2 h-12 text-lg shadow-xl border-none rounded-md" id="acctype" name="Userrole">
+                                <option value="SelectUserRole">Select User Role</option>
+                                <option value="Admin">Admin</option>
+                                <option value="EventOwner">Event Owner</option>
+                                <option value="EventAttendee">Event Attendee</option>
+                              </select>
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="h-14 text-gray-600 text-2xl">Email Address</label>
+                            <input autocomplete="off" id="email" name="email" type="text" class="text-2xl h-14 w-full border-b-2 border-gray-300 text-gray-900" placeholder="Email address" />
+                        </div>
+                        <div class="mb-6">
+                            <label for="password" class="h-14 text-gray-600 text-2xl">Password</label>
+                            <input autocomplete="off" id="password" name="password" type="password" class="text-2xl h-14 w-full border-b-2 border-gray-300 text-gray-900" placeholder="Password" />
+                        </div>
+                        <div class="mt-10 mb-6">
+                            <button class="w-full bg-slate-400 text-white px-2 py-4 text-2xl">Login</button>
+                        </div>
+                        <a class="text-black text-lg font-medium" href="#">Forgot Password?</a>
+                    </div>
+                </form>
+                <div class="flex-auto m-auto text-center">
+                    OR
+                </div>
+                <div class="flex-auto m-auto">
+                    <div class="grid space-y-4">
+                        <button class="group h-12 px-6 border-2 border-black transition duration-300 hover:border-blue-400 focus:bg-blue-50 active:bg-blue-100">
+                            <div class="relative flex items-center space-x-4 justify-center">
+                                <img src="https://tailus.io/sources/blocks/social/preview/images/google.svg" class="absolute left-0 w-5" alt="google logo">
+                                <span class="block w-max font-semibold tracking-wide text-gray-700 text-sm transition duration-300 group-hover:text-blue-600 sm:text-base">Continue with Google</span>
+                            </div>
+                        </button>
+                        <button class="group h-12 px-6 border-2 border-black transition duration-300 hover:border-blue-400 focus:bg-blue-50 active:bg-blue-100">
+                            <div class="relative flex items-center space-x-4 justify-center">
+                                <img src="https://nafis.gov.ae/static/media/uae-pass-icon.8fcf6d63.png" class="absolute left-0 w-5" alt="UAE Pass logo">
+                                <span class="block w-max font-semibold tracking-wide text-gray-700 text-sm transition duration-300 group-hover:text-blue-600 sm:text-base">Sign In with UAE Pass</span>
+                            </div>
+                        </button>
+                        <button class="group h-12 px-6 border-2 border-black transition duration-300 
+                                     hover:border-blue-400 focus:bg-blue-50 active:bg-blue-100">
+                            <div class="relative flex items-center space-x-4 justify-center">
+                                <span class="block w-max font-semibold tracking-wide text-gray-700 text-sm transition duration-300 group-hover:text-blue-600 sm:text-base">Other</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="">
+            <p class="text-center text-lg text-gray-500 mt-40">By continuing, you agree to CodersHQ Terms of Use. Read our Privacy Policy</p>
+        </footer>
+    </body>
+</html>
